@@ -33,7 +33,6 @@ https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 - Set graphics memory as `>=1GB` in BIOS to avoid stutters.
 
 ## ToDo
-- [ ] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
-- [ ] Fix iServices
+- [x] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [ ] Fix keyboard wakeup from sleep
 - [ ] Fix brightness keys
