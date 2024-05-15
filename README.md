@@ -1,7 +1,7 @@
 # ideapad-3-15alc6-opencore
-#### Opencore EFI for Lenovo IdeaPad 3 15ALC6
+#### Opencore/Hackintosh EFI for Lenovo IdeaPad 3 15ALC6
 
-![Desktop Screenshot](images/screenshot.png)
+![Hackintosh Screenshot](images/screenshot.png)
 
 ## MacOS Details
 Category | Version
