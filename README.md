@@ -6,8 +6,8 @@
 ## MacOS Details
 Category | Version
 :- | :-
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 0.9.9
-MacOS | Ventura 13.6.6
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.3
+MacOS | Ventura 13.7.1
 
 ## Hardware Specifications
 Category | Part | Status
@@ -15,17 +15,15 @@ Category | Part | Status
 Model | Lenovo IdeaPad 3 15ALC6 82KU01ATPH | ✅
 CPU | Ryzen 7 5700U | ✅
 GPU | AMD Radeon Graphics | ✅
-RAM | 8GB (4GB soldered + 4GB SODIMM) | ✅
+RAM | 20GB (4GB soldered + 16GB SODIMM) | ✅
 Drive | 512GB SSD M.2 2242 PCIe NVMe | ✅
-Audio | Realtek ALC3287 (`alcid=11`) | ✅
+Audio | Realtek ALC257 (`alcid=11`) | ✅
 WiFi +<br/>Bluetooth | Qualcomm Atheros QCA6174 | ❌
-Touchpad | IDK it just works | ✅
+Touchpad | `VoodooI2CHID` does the trick | ✅
 
 ## Notes
 - Set `boot-args` as `alcid=11` to make audio work.
-- Dump your DSDT and patch it with [SSDTTime](https://github.com/corpnewt/SSDTTime). Follow the required patches from [NootedRed](https://chefkissinc.github.io/guide/gathering-files/acpi).
 - Generate your own [SMBIOS](https://github.com/corpnewt/GenSMBIOS), use `MacBookPro16,3` SMBIOS, and edit your `config.plist`.
-- Map your own USB keymapping using [USBToolBox](https://github.com/USBToolBox/tool), and add it to `Kexts` directory.
 - Do an `OC Clean Snapshot` with ProperTree and boot your USB installer.
 - Atheros Networking Card is unsupported by MacOS. This EFI comes with [HoRNDIS]() kext to support USB Tethering.
 - You may want to change your networking card or buy a WiFi USB Dongle supported by [chris1111's driver](
@@ -34,5 +32,7 @@ https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 
 ## ToDo
 - [x] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
-- [ ] Fix keyboard wakeup from sleep
-- [ ] Fix brightness keys
+- [x] Fix keyboard wakeup from sleep
+- [x] Fix brightness keys
+- [ ] Update kexts
+- [ ] Try macOS Sonoma and up
