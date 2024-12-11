@@ -17,7 +17,7 @@ CPU | Ryzen 7 5700U | ✅
 GPU | AMD Radeon Graphics | ✅
 RAM | 20GB (4GB soldered + 16GB SODIMM) | ✅
 Drive | 512GB SSD M.2 2242 PCIe NVMe | ✅
-Audio | Realtek ALC257 (`alcid=11`) | ✅
+Audio | Realtek ALC257 (`alcid=86`) | ✅
 WiFi +<br/>Bluetooth | Qualcomm Atheros QCA6174 | ❌
 Touchpad | `VoodooI2CHID` does the trick | ✅
 
@@ -34,5 +34,5 @@ https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 - [x] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [x] Fix keyboard wakeup from sleep
 - [x] Fix brightness keys
-- [ ] Update kexts
+- [x] Update kexts
 - [ ] Try macOS Sonoma and up
