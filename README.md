@@ -22,7 +22,7 @@ WiFi +<br/>Bluetooth | Qualcomm Atheros QCA6174 | ❌
 Touchpad | `VoodooI2CHID` does the trick | ✅
 
 ## Notes
-- Set `boot-args` as `alcid=11` to make audio work.
+- Set `boot-args` as `alcid=86` to make audio work.
 - Generate your own [SMBIOS](https://github.com/corpnewt/GenSMBIOS), use `MacBookPro16,3` SMBIOS, and edit your `config.plist`.
 - Do an `OC Clean Snapshot` with ProperTree and boot your USB installer.
 - Atheros Networking Card is unsupported by MacOS. This EFI comes with [HoRNDIS]() kext to support USB Tethering.
