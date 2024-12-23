@@ -7,7 +7,7 @@
 Category | Version
 :- | :-
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.3
-MacOS | Ventura 13.7.1
+MacOS | Sonoma 14.7.2
 
 ## Hardware Specifications
 Category | Part | Status
@@ -35,4 +35,4 @@ https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 - [x] Fix keyboard wakeup from sleep
 - [x] Fix brightness keys
 - [x] Update kexts
-- [ ] Try macOS Sonoma and up
+- [ ] Try macOS Sequoia
