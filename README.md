@@ -28,7 +28,7 @@ Touchpad | `VoodooI2CHID` does the trick | ✅
 - Atheros Networking Card is unsupported by MacOS. This EFI comes with [HoRNDIS]() kext to support USB Tethering.
 - You may want to change your networking card or buy a WiFi USB Dongle supported by [chris1111's driver](
 https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
-- Set graphics memory as `>=1GB` in BIOS to avoid stutters.
+- Set graphics memory to `2GB` through BIOS to avoid stutters.
 
 ## ToDo
 - [x] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
