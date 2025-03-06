@@ -1,12 +1,12 @@
 # ideapad-3-15alc6-opencore
-#### Opencore/Hackintosh EFI for Lenovo IdeaPad 3 15ALC6
+#### Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 ![Hackintosh Screenshot](images/screenshot.png)
 
 ## MacOS Details
 Category | Version
 :- | :-
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.3
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.4
 MacOS | Sequoia 15.2
 
 ## Hardware Specifications
