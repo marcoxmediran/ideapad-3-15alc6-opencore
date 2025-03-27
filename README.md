@@ -17,12 +17,12 @@ CPU | Ryzen 7 5700U | ✅
 GPU | AMD Radeon Graphics | ✅
 RAM | 20GB (4GB soldered + 16GB SODIMM) | ✅
 Drive | 512GB SSD M.2 2242 PCIe NVMe | ✅
-Audio | Realtek ALC257 (`alcid=86`) | ✅
+Audio | Realtek ALC257 (`alcid=101`) | ✅
 WiFi +<br/>Bluetooth | Qualcomm Atheros QCA6174 | ❌
 Touchpad | `VoodooI2CHID` does the trick | ✅
 
 ## Notes
-- Set `boot-args` as `alcid=97` to make audio and microphone to work.
+- Set `boot-args` as `alcid=101` to make audio and microphone to work.
 - Generate your own [SMBIOS](https://github.com/corpnewt/GenSMBIOS), use `MacBookPro16,3` SMBIOS, and edit your `config.plist`.
 - Do an `OC Clean Snapshot` with ProperTree and boot your USB installer.
 - Atheros Networking Card is unsupported by MacOS. This EFI comes with [HoRNDIS]() kext to support USB Tethering.
