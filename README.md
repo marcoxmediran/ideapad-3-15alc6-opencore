@@ -6,10 +6,10 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 ## macOS Details
 
-| Category                                               | Version      |
-| :----------------------------------------------------- | :----------- |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.4        |
-| macOS                                                  | Sequoia 15.2 |
+| Category                                               | Version                |
+| :----------------------------------------------------- | :--------------------- |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.5                  |
+| macOS support                                          | macOS 10.5 to macOS 26 |
 
 ## Hardware Specifications
 
@@ -26,16 +26,10 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 ## Notes
 
+- It is prefered to use macOS versions 15 and below for stability.
 - Add `alcid=101` to `boot-args` for functional audio input and output.
-- Use `MacBookPro16,3` [SMBIOS](https://github.com/corpnewt/GenSMBIOS).
-- Do an `OC Clean Snapshot` with ProperTree and boot your USB installer.
+- Use `MacBookPro16,3` (macOS 15 and below) or `MacBookPro16,2` (macOS 26) [SMBIOS](https://github.com/corpnewt/GenSMBIOS).
 - This EFI comes with `HoRNDIS.kext` to support USB Tethering.
-- The built-in networking card is unsupported by MacOS. You may want to change your networking card or buy a USB WiFi adapter supported by [chris1111's driver](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
+- The built-in networking card is unsupported by MacOS.
+- You may want to change your networking card or buy a USB WiFi adapter supported by [chris1111's driver](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 - Set graphics memory to `2GB` through BIOS to avoid stutters.
-
-## ToDo
-
-- [x] Include [YogaSMC](https://github.com/zhen-zen/YogaSMC)
-- [x] Fix keyboard wakeup from sleep
-- [x] Update kexts
-- [x] Try macOS Sequoia
