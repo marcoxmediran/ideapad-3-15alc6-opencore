@@ -22,7 +22,7 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 | Drive            | 512GB SSD M.2 2242 PCIe NVMe       |   ✅   |
 | Audio            | Realtek ALC257                     |   ✅   |
 | WiFi + Bluetooth | Qualcomm Atheros QCA6174           |   ❌   |
-| Touchpad         | `VoodooI2CHID` does the trick.     |   ✅   |
+| Touchpad         | MSFT0001:00 06CB:CE2D              |   ✅   |
 
 ## Notes
 
