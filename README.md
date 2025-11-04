@@ -28,7 +28,8 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 - It is prefered to use macOS versions 15 and below for stability.
 - Add `alcid=101` to `boot-args` for functional audio input and output.
-- Use `MacBookPro16,3` (macOS 15 and below) or `MacBookPro16,2` (macOS 26) [SMBIOS](https://github.com/corpnewt/GenSMBIOS).
+- Use `MacBookPro16,3` (macOS 15 and below) or `MacBookPro16,2` (macOS 26 and below) [SMBIOS](https://github.com/corpnewt/GenSMBIOS).
+- Speakers and headphone jack are broken on macOS 26, only HDMI audio is working.
 - This EFI comes with `HoRNDIS.kext` to support USB Tethering.
 - The built-in networking card is unsupported by MacOS.
 - You may want to change your networking card or buy a USB WiFi adapter supported by [chris1111's driver](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
