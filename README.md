@@ -8,7 +8,7 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 | Category                                               | Version                |
 | :----------------------------------------------------- | :--------------------- |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.5                  |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.6                  |
 | macOS support                                          | macOS 10.5 to macOS 26 |
 
 ## Hardware Specifications
@@ -27,6 +27,7 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 ## Notes
 
 - It is prefered to use macOS versions 15 and below for stability.
+- Update your kexts if newer versions are available.
 - Add `alcid=101` to `boot-args` for functional audio input and output.
 - Use `MacBookPro16,3` (macOS 15 and below) or `MacBookPro16,2` (macOS 26 and below) [SMBIOS](https://github.com/corpnewt/GenSMBIOS).
 - Speakers and headphone jack are broken on macOS 26, only HDMI audio is working.
