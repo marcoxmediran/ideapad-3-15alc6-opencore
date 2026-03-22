@@ -8,7 +8,7 @@ Hackintosh EFI for Lenovo IdeaPad 3 15ALC6 using OpenCore bootloader.
 
 | Category                                               | Version                |
 | :----------------------------------------------------- | :--------------------- |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.6                  |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg) | 1.0.7                  |
 | macOS support                                          | macOS 10.5 to macOS 26 |
 
 ## Hardware Specifications
